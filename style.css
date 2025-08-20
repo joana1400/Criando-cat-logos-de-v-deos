@@ -1,33 +1,71 @@
 body {
-   background-color: #1D4221;
    color: withe;
-   font-family: "Bai Jamjuree", sans-sarif;
+   background: black;
+   margin: 0 px;
+   font-family: "Chakra Petch", sans-serif;
+   margin-bottom: 100 px;
+}
+
+header {
+   border-bottom: solid 2 px rgb (42, 122, 228);
+   padding: 20 px;
+   font size: 32 px;
+   color: rgb (42, 122, 228);
+}
+
+.chamada {
+   background: rgb (184, 156, 213);
+   padding-bottom: 80 px;
+   padding-top: 80 px;
    display: flex;
-   justify-contente: center;
-   align-items: center;
-   heigth: 700 px;
-   margin: 0;
+   justifly-content: center;
 }
 
-button { 
-    background-color: #64A712;
-    color: withe;
-    font-family: "Bai Jamjuree", sans-sarif;
+.chamada.texto {
+   margin-right: 5 %;
 }
 
-.passo.ativo {
-     display: none;
+h1 {
+   font-size:40 px;
 }
 
-.passo.ativo {
-    display:block;
+p {
+   font-size: 20 px;
 }
 
-main {
-  text-align: center;
-  max-width: 90 %;
+.categorias-videos {
+   display: flex;
+   overflow-x: auto;
+   gap: 10 px;
 }
 
-img {
-  max-width: 90 %;
+   .categoria {
+padding-left: 20 px;
+padding-right: 20 px;
+margin-top: 50 px;
+   }
+
+categoria-videos img {
+   opacity: 0.5;
+   height:200 px;
 }
+
+.categoria-videos img:hover {
+   opacity: 1.0;
+   border: 3 px solid green;
+}
+
+.categoria h2 {
+   color: rgb (42, 122, 228);
+}
+   
+   
+
+
+
+
+
+
+
+
+   
